@@ -1,0 +1,49 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <channel>
+
+        <title>Yahoo! Weather - Houtvenne, BE</title>
+        <link>http://us.rd.yahoo.com/dailynews/rss/weather/Houtvenne__BE/*http://weather.yahoo.com/forecast/BEXX0032_c.html</link>
+        <description>Yahoo! Weather for Houtvenne, BE</description>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 13 Nov 2012 10:23 am CET</lastBuildDate>
+        <ttl>60</ttl>
+        <yweather:location city="Houtvenne" region=""   country="Belgium"/>
+        <yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+        <yweather:wind chill="6"   direction="190"   speed="11.27" />
+        <yweather:atmosphere humidity="87"  visibility="9"  pressure="1015.92"  rising="0" />
+        <yweather:astronomy sunrise="7:52 am"   sunset="4:52 pm"/>
+        <image>
+            <title>Yahoo! Weather</title>
+            <width>142</width>
+            <height>18</height>
+            <link>http://weather.yahoo.com</link>
+            <url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+        </image>
+        <weatherItem>
+            <title>Conditions for Houtvenne, BE at 10:23 am CET</title>
+            <geo:lat>51.04</geo:lat>
+            <geo:long>4.81</geo:long>
+            <link>http://us.rd.yahoo.com/dailynews/rss/weather/Houtvenne__BE/*http://weather.yahoo.com/forecast/BEXX0032_c.html</link>
+            <pubDate>Tue, 13 Nov 2012 10:23 am CET</pubDate>
+            <yweather:condition  text="Cloudy"  code="26"  temp="8"  date="Tue, 13 Nov 2012 10:23 am CET" />
+            <description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/26.gif"/><br />
+<b>Current Conditions:</b><br />
+Cloudy, 8 C<BR />
+<BR /><b>Forecast:</b><BR />
+Tue - AM Clouds/PM Sun. High: 11 Low: -2<br />
+Wed - Sunny. High: 11 Low: 1<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Houtvenne__BE/*http://weather.yahoo.com/forecast/BEXX0032_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+            <yweather:forecast day="Tue" date="13 Nov 2012" low="-2" high="11" text="AM Clouds/PM Sun" code="30" />
+            <yweather:forecast day="Wed" date="14 Nov 2012" low="1" high="11" text="Sunny" code="32" />
+            <guid isPermaLink="false">BEXX0032_2012_11_14_7_00_CET</guid>
+        </weatherItem>
+    </channel>
+</rss>
+
+        <!-- api6.weather.ch1.yahoo.com Tue Nov 13 10:23:34 PST 2012 -->
