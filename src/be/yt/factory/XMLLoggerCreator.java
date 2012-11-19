@@ -8,7 +8,7 @@ package be.yt.factory;
 // concrete creator
 public class XMLLoggerCreator extends AbstractLoggerCreator {
     @Override
-    public Logger createLogger() {
+    protected Logger createLogger() {
         return new XMLLogger();
     }
 }

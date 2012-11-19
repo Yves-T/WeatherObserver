@@ -8,7 +8,7 @@ package be.yt.factory;
 // the abstract creator
 public abstract class AbstractLoggerCreator {
     // the factory method
-    public abstract Logger createLogger();
+    protected abstract Logger createLogger();
 
     // the operations that are implemented for all LoggerCreators
     // like anOperation() in our diagram
