@@ -27,7 +27,7 @@ public class GumballMachine {
             state = noQuarterState;
         }
 
-        location = this.location;
+        this.location = location;
     }
 
     public GumballMachine(int numberGumballs) {
